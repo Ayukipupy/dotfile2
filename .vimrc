@@ -3,6 +3,7 @@ scriptencoding utf-8
 set fileencodings=utf-8,cp932,sjis,utf-16le
 set fileformats=unix,dos
 
+
 execute pathogen#infect()
 execute pathogen#helptags()
 syntax enable
@@ -36,8 +37,8 @@ augroup vimrc
 	autocmd!
 		autocmd FileType vim setlocal keywordprg=:help
 augroup END
-nnoremap <Leader>ev :e ~/dotfiles/.vimrc<CR>
-nnoremap <Leader>cv :e ~/dotfiles/cheatsheets/vim.txt<CR>
+nnoremap <Leader>ev :e ~/dotfile2/.vimrc<CR>
+nnoremap <Leader>cv :e ~/dotfile2/cheatsheets/vim.txt<CR>
 nnoremap <Leader><C-q> :q<CR>
 nnoremap <Leader>m :MRU<CR>
 
